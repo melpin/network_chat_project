@@ -3,11 +3,11 @@ chatting server,client with udp, tcp, ssl protocol
 
 server side
 
-header.h > define basic header
-set_socket.h > init_lib, set_port, bind_socket, disconnect_socket function prototype define
-set_ssl > ssl certification path, many functions prototype for ssl
-tcp.h > tcp socket init, recv, send, connect wait function prototype define
-udp. h > udp socket init, recv, send function prototype define
+<p>header.h > define basic header
+<p>set_socket.h > init_lib, set_port, bind_socket, disconnect_socket function prototype define
+<p>set_ssl > ssl certification path, many functions prototype for ssl
+<p>tcp.h > tcp socket init, recv, send, connect wait function prototype define
+<p>udp. h > udp socket init, recv, send function prototype define
 
 set_socket.cpp
 init_lib function > init winsock lib

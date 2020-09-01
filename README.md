@@ -1,7 +1,7 @@
 # network_chat_project
 chatting server,client with udp, tcp, ssl protocol
 
-server side  
+<h2>server side  </h2>  
 
 header.h > define basic header  
 set_socket.h > init_lib, set_port, bind_socket, disconnect_socket function prototype define  
@@ -9,7 +9,7 @@ set_ssl > ssl certification path, many functions prototype for ssl
 tcp.h > tcp socket init, recv, send, connect wait function prototype define  
 udp. h > udp socket init, recv, send function prototype define  
 
-<h3>set_socket.cpp  </h3>
+<h3>set_socket.cpp  </h3>  
 init_lib function > init winsock lib  
 set_port function > sockaddr structer define and return  
 bind_socket function > bind, wait client  
@@ -45,7 +45,7 @@ wait client
 
 <hr>
 
-client side  
+<h2>client side  </h2>
 
 headers same  
 

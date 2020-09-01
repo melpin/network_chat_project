@@ -10,10 +10,10 @@ tcp.h > tcp socket init, recv, send, connect wait function prototype define
 udp. h > udp socket init, recv, send function prototype define  
 
 <h3>set_socket.cpp  </h3>  
-init_lib function > init winsock lib  
-set_port function > sockaddr structer define and return  
-bind_socket function > bind, wait client  
-disconnect_socket function > close socket  
+init_lib function > init winsock lib    
+set_port function > sockaddr structer define and return    
+bind_socket function > bind, wait client    
+disconnect_socket function > close socket    
 
 <h3>udp.cpp  </h3>
 upd_socket function > init udp socket  
